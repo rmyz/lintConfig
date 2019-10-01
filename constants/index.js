@@ -1,4 +1,4 @@
 const CUSTOM_RULES = require('./customRules');
-const LEVEL_RULES = requires('./levelRules');
+const LEVEL_RULES = require('./levelRules');
 
-export {CUSTOM_RULES, LEVEL_RULES};
+module.exports = { CUSTOM_RULES, LEVEL_RULES };
