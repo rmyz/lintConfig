@@ -1,10 +1,5 @@
-const prettierOptions = require('./.prettierrc.js')
-
-const RULES = {
-    OFF: 0,
-    WARNING: 1,
-    ERROR: 2
-};
+const prettierOptions = require('./.prettierrc.js');
+const {CUSTOM_RULES, LEVEL_RULES} = require('./constants');
 
 module.exports = {
     "env": {
@@ -39,6 +34,7 @@ module.exports = {
     "rules": {
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "warn",
-        'prettier/prettier': [RULES.ERROR, prettierOptions]
+        'prettier/prettier': [LEVEL_RULES.ERROR, prettierOptions],
+        ...CUSTOM_RULES
     }
 };
