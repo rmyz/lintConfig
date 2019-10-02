@@ -2,10 +2,10 @@
 ​
 ## Installation
 ​
-1. Install `@tiendeo/lint`package:
+1. Install `lintConfig`package:
 
 ```sh
-npm i -D @tiendeo/lint
+npm i -D lintConfig
 ```
 ​
 2. Add these lines to `package.json`:
