@@ -1,5 +1,4 @@
 module.exports = {
-  'prettier/prettier': 'error',
   'array-bracket-spacing': [1, 'never'],
   'arrow-spacing': 1,
   'block-spacing': [1, 'never'],
