@@ -1,6 +1,6 @@
 {
   "name": "lintconfig",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "eslint, prettier & stylelint configurations",
   "main": "index.js",
   "scripts": {
