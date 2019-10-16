@@ -9,7 +9,7 @@ module.exports = {
     jest: true,
     node: true,
   },
-  extends: ['eslint:recommended', 'plugin:react/recommended', 'prettier', 'prettier/react', 'prettier/standard'],
+  extends: ['eslint:recommended', 'plugin:react/recommended', 'prettier', 'prettier/react', 'prettier/standard', "plugin:jsx-a11y/recommended"],
   parser: 'babel-eslint',
   parserOptions: {
     ecmaFeatures: {
@@ -18,7 +18,7 @@ module.exports = {
     ecmaVersion: 2018,
     sourceType: 'module',
   },
-  plugins: ['babel', 'cypress', 'prettier', 'react', 'react-hooks', 'import'],
+  plugins: ['babel', 'cypress', 'prettier', 'react', 'react-hooks', 'import', "jsx-a11y"],
   rules: {
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
