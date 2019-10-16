@@ -1,5 +1,3 @@
-const { LEVEL_RULES } = require('./');
-
 module.exports = {
   'array-bracket-spacing': [1, 'never'],
   'arrow-spacing': 1,
@@ -102,5 +100,5 @@ module.exports = {
   'space-in-parens': [1, 'never'],
   'space-infix-ops': 1,
   'react-hooks/rules-of-hooks': 'error',
-  'react-hooks/exhaustive-deps': LEVEL_RULES.OFF,
+  'react-hooks/exhaustive-deps': 0,
 };
